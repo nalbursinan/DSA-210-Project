@@ -11,7 +11,7 @@ By utilizing data visualization, statistical analysis, and machine learning tech
 ---
 
 ## Objectives
-kkn
+
 1. **Understand Sales Trends**  
    Analyze seasonal and city-based trends to identify peak sales periods and location-based patterns.
 
@@ -57,13 +57,7 @@ The dataset consists of one year of sales data with the following features:
 - **Order Quantity:** The quantity of products ordered.  
 - **Order Amount:** Total revenue generated from the order.  
 - **Order Date and Season:** The date and season when the order was placed.
-- **Order Time:** The exact order time as hour and minute.
-- **Order City:** The city where the order was shipped.  
-- **Commission Rate:** The commission percentage paid for the product.  
-- **Price Range:** Price category of the product (e.g., Low, Medium, High).  
-- **Net Revenue:** Revenue after deducting commissions.
 
----
 
 ## Tools and Technologies
 
@@ -119,6 +113,19 @@ The following tools and technologies will be used for data analysis and visualiz
    - A scatter plot to explore how various commission rates affect net revenue.
 
 ---
+## 🔍 Analysis and Machine Learning
+1. **Sales Trend Analysis**: Monthly and seasonal trends visualized using line plots and pie charts.
+2. **Category and Seasonal Analysis**: Identified top-selling product categories across seasons.
+3. **Logistic Regression – High vs Low Sales Classification**:
+   - Predicted whether a sales record would be high or low based on month, season, and category.
+   - Achieved **77% accuracy**, with strong low-sales prediction performance.
+4. **Random Forest Regression – Sales Quantity Prediction**:
+   - Predicted continuous **net sales quantity** (`Net Sats Adedi`).
+   - Achieved **MAE of 96.84** and **R² score of 0.79**.
+5. **Result of ML Tasks**:
+   - Logistic Regression classified sales records (binary: high/low).
+   - Random Forest predicted continuous net sales quantity.
+   - Key insights highlighted and suggestions for future improvements (e.g., hyperparameter tuning, feature engineering).
 
 ## Conclusion
 
